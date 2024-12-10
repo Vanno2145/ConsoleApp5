@@ -45,7 +45,7 @@ class Programm
     static void Main(string[] args)
     {
         
-        using (Store store = new Store("Магазин Одежды", "Москва, ул. Ленина, 1", "Одежда"))
+        using (Store store = new Store("Магазин Одежды", "Одесса", "Одежда"))
         {
             store.DisplayInfo();
             
